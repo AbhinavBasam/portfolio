@@ -51,11 +51,11 @@ export const portfolioData: PortfolioData = {
     skillsGroups: [
         {
             title: "MLOps & Engineering",
-            items: ["Docker", "Git", "REST APIs", "FastAPI", "Flask", "DSA", "OOP"],
+            items: ["LLM Deployment", "Docker", "Git", "REST APIs", "FastAPI", "Flask", "DSA", "OOP"],
         },
         {
             title: "AI & Machine Learning",
-            items: ["Generative AI", "LLMs", "CNNs", "TensorFlow", "Keras", "LangChain", "scikit-learn"],
+            items: ["Generative AI", "RAG", "LoRA", "AI Agents", "LLMs", "CNNs", "TensorFlow", "Keras", "LangChain", "scikit-learn"],
         },
         {
             title: "Cloud & Databases",
@@ -71,21 +71,21 @@ export const portfolioData: PortfolioData = {
     projects: [
         {
             index: "01",
-            title: "Multi-Agent RAG System",
-            description: "Engineered an autonomous multi-agent pipeline and packaged the orchestration logic into a scalable REST API.",
-            tags: ["Python", "LangChain", "FastAPI"],
+            title: "CodeAudit AI (Published Research)",
+            description: "Authored a novel multi-agent RAG system for semantic codebase vectorization. Achieved 93.3% accuracy and 100% precision using all-MiniLM-L6-v2 embeddings, ChromaDB, and a Chain-of-Thought LLM Judge.",
+            tags: ["Python", "LangChain", "RAG", "ChromaDB", "Multi-Agent"],
         },
         {
             index: "02",
-            title: "Jarvis — Offline AI Voice Assistant",
-            description: "Designed a finite-state listening system and automated OS-level system actions without relying on high-latency cloud APIs.",
-            tags: ["Python", "Speech Recognition"],
+            title: "Enhanced Dog Breed Classification (Published Research)",
+            description: "Developed a probability-level stacking ensemble combining ResNet50, EfficientNetB0, and MobileNetV2 with an MLP meta-learner. Achieved state-of-the-art 84.30% Top-1 accuracy on the 120-class Stanford Dogs benchmark. Deployed via Gradio.",
+            tags: ["TensorFlow", "Keras", "Ensemble Learning", "Gradio"],
         },
         {
             index: "03",
-            title: "Dog Breed Classification (CNN)",
-            description: "Developed an image classifier with data augmentation and optimized hyperparameters for high generalization.",
-            tags: ["TensorFlow", "Keras"],
+            title: "Jarvis — Offline AI Voice Assistant",
+            description: "Designed a privacy-focused, finite-state listening system. Implemented utterance-level RMS energy analysis for noisy environments and automated OS-level system actions without relying on high-latency cloud APIs.",
+            tags: ["Python", "Speech Recognition", "Automation"],
         },
     ],
 };
