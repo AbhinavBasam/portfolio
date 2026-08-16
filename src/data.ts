@@ -71,13 +71,13 @@ export const portfolioData: PortfolioData = {
     projects: [
         {
             index: "01",
-            title: "CodeAudit AI (Published Research)",
+            title: "CodeAudit AI (Conference Accepted)",
             description: "Authored a novel multi-agent RAG system for semantic codebase vectorization. Achieved 93.3% accuracy and 100% precision using all-MiniLM-L6-v2 embeddings, ChromaDB, and a Chain-of-Thought LLM Judge.",
             tags: ["Python", "LangChain", "RAG", "ChromaDB", "Multi-Agent"],
         },
         {
             index: "02",
-            title: "Enhanced Dog Breed Classification (Published Research)",
+            title: "Enhanced Dog Breed Classification (Conference Accepted)",
             description: "Developed a probability-level stacking ensemble combining ResNet50, EfficientNetB0, and MobileNetV2 with an MLP meta-learner. Achieved state-of-the-art 84.30% Top-1 accuracy on the 120-class Stanford Dogs benchmark. Deployed via Gradio.",
             tags: ["TensorFlow", "Keras", "Ensemble Learning", "Gradio"],
         },
