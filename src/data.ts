@@ -87,5 +87,11 @@ export const portfolioData: PortfolioData = {
             description: "Designed a privacy-focused, finite-state listening system. Implemented utterance-level RMS energy analysis for noisy environments and automated OS-level system actions without relying on high-latency cloud APIs.",
             tags: ["Python", "Speech Recognition", "Automation"],
         },
+        {
+            index: "04",
+            title: "Real-Time Streaming Fraud Detection",
+            description: "Architected an enterprise-grade MLOps pipeline for processing high-throughput financial transactions with sub-50ms latency. Engineered a streaming feature store (Feast) and deployed an XGBoost model via FastAPI, orchestrated by Kubernetes and monitored via Prometheus.",
+            tags: ["FastAPI", "Apache Kafka", "XGBoost", "Feast", "Kubernetes", "Prometheus", "MLOps"],
+        },
     ],
 };
