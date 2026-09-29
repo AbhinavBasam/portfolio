@@ -8,6 +8,7 @@ export interface ProjectItem {
     title: string;
     description: string;
     tags: string[];
+    link?: string;
 }
 
 export interface PortfolioData {
@@ -71,9 +72,10 @@ export const portfolioData: PortfolioData = {
     projects: [
         {
             index: "01",
-            title: "CodeAudit AI (Conference Accepted)",
+            title: "CodeAudit AI (Published in IEEE)",
             description: "Authored a novel multi-agent RAG system for semantic codebase vectorization. Achieved 93.3% accuracy and 100% precision using all-MiniLM-L6-v2 embeddings, ChromaDB, and a Chain-of-Thought LLM Judge.",
-            tags: ["Python", "LangChain", "RAG", "ChromaDB", "Multi-Agent"],
+            tags: ["Python", "LangChain", "RAG", "ChromaDB", "Multi-Agent", "IEEE"],
+            link: "https://ieeexplore.ieee.org/document/11687455/",
         },
         {
             index: "02",

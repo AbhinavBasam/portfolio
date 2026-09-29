@@ -528,7 +528,13 @@ export default function App() {
                                         lineHeight: 1.2,
                                     }}
                                 >
-                                    {project.title}
+                                    {project.link ? (
+                                        <a href={project.link} target="_blank" rel="noreferrer noopener" style={{ textDecoration: "underline", color: "inherit" }}>
+                                            {project.title}
+                                        </a>
+                                    ) : (
+                                        project.title
+                                    )}
                                 </h3>
                                 <p
                                     style={{
